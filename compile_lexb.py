@@ -8,13 +8,13 @@ macro_map = {}
 is_defining_macros = False
 for line in sys.stdin.readlines():
     line = line.strip("\n")
-    if line.startswith("Define_Macros"):
+    if line.startswith("Define_Flags"):
         is_defining_macros = True
         continue
     elif is_defining_macros:
         if not line.strip("\n "):
             continue
-        elif line.startswith("End Define_Macros"):
+        elif line.startswith("End Define_Flags"):
             is_defining_macros = False
             continue
         try:

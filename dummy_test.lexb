@@ -1,4 +1,19 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Define_Flags
+[P Plural Subj] @P.SubjPl.1@
+[R Plural Subj] @R.SubjPl.1@
+[D Plural Subj] @D.SubjPl@
+
+[P Past] @P.IsPast.1@
+[R Past] @R.IsPast.1@
+[D Past] @D.IsPast@
+
+[P Optative] @P.Opt.1@
+[R Optative] @R.Opt@
+[D Optative] @D.Opt@
+End Define_Flags
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 Multichar_Symbols
 
@@ -133,33 +148,6 @@ Multichar_Symbols
 %{%@%}                                   ! para terminaciones -o y -a en sustantivos y/o adjetivos
 %{y%}					 ! y/x (ej pretérito de piya)
 %>                                       ! Frontera de morfema
-
-
-@P.SubjPl.1@
-@R.SubjPl.1@
-@D.SubjPl@
-
-@P.IsPast.1@
-@R.IsPast.1@
-@D.IsPast@
-
-@P.Opt.1@
-@R.Opt@
-@D.Opt@
-
-Define_Macros
-[P Plural Subj] @P.SubjPl.1@
-[R Plural Subj] @R.SubjPl.1@
-[D Plural Subj] @D.SubjPl@
-
-[P Past] @P.IsPast.1@
-[R Past] @R.IsPast.1@
-[D Past] @D.IsPast@
-
-[P Optative] @P.Opt.1@
-[R Optative] @R.Opt@
-[D Optative] @D.Opt@
-End Define_Macros
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
